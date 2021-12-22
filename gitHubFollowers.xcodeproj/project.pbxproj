@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1F7B9A2773EABA00BE4AF5 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F7B992773EABA00BE4AF5 /* SearchVC.swift */; };
+		5E1F7B9C2773EAF900BE4AF5 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F7B9B2773EAF900BE4AF5 /* FavoritesListVC.swift */; };
 		5E1FB08B2773E2C3008ED202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FB08A2773E2C3008ED202 /* AppDelegate.swift */; };
 		5E1FB08D2773E2C4008ED202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FB08C2773E2C4008ED202 /* SceneDelegate.swift */; };
 		5E1FB08F2773E2C4008ED202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FB08E2773E2C4008ED202 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E1F7B992773EABA00BE4AF5 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		5E1F7B9B2773EAF900BE4AF5 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		5E1FB0872773E2C3008ED202 /* gitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FB08A2773E2C3008ED202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E1FB08C2773E2C4008ED202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				5E1FB0932773E2C6008ED202 /* Assets.xcassets */,
 				5E1FB0952773E2C6008ED202 /* LaunchScreen.storyboard */,
 				5E1FB0982773E2C6008ED202 /* Info.plist */,
+				5E1F7B992773EABA00BE4AF5 /* SearchVC.swift */,
+				5E1F7B9B2773EAF900BE4AF5 /* FavoritesListVC.swift */,
 			);
 			path = gitHubFollowers;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E1FB08F2773E2C4008ED202 /* ViewController.swift in Sources */,
+				5E1F7B9A2773EABA00BE4AF5 /* SearchVC.swift in Sources */,
+				5E1F7B9C2773EAF900BE4AF5 /* FavoritesListVC.swift in Sources */,
 				5E1FB08B2773E2C3008ED202 /* AppDelegate.swift in Sources */,
 				5E1FB08D2773E2C4008ED202 /* SceneDelegate.swift in Sources */,
 			);
