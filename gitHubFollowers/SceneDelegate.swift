@@ -46,7 +46,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let tabBar = UITabBarController()
         
         if #available(iOS 15.0, *) {
-            tabBar.tabBar.backgroundColor = .white
+            tabBar.tabBar.backgroundColor = .systemBackground
         }
         
         UITabBar.appearance().tintColor = .systemGreen
