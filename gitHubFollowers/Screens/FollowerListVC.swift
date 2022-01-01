@@ -12,7 +12,7 @@ class FollowerListVC: UIViewController {
     enum Section {
         case main
     }
-    
+     
     var username: String!
     var followers: [Follower] = []
     
