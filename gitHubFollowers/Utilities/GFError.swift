@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  gitHubFollowers
 //
-//  Created by Lucian Cerbu on 24.12.2021.
+//  Created by Lucian Cerbu on 01.01.2022.
 //
 
 import Foundation
