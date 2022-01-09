@@ -43,6 +43,7 @@
 		5EB6202327847691001B9AFD /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6202227847691001B9AFD /* FavoriteCell.swift */; };
 		5ED8C51A2786307500F732D1 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8C5192786307500F732D1 /* GFTabBarController.swift */; };
 		5EF1A98F278B8721003B6C6F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF1A98E278B8721003B6C6F /* UIView.swift */; };
+		5EF1A991278B924C003B6C6F /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF1A990278B924C003B6C6F /* UITableView.swift */; };
 		5EF51EF5277A602100CFD8C7 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF51EF4277A602100CFD8C7 /* FollowerCell.swift */; };
 		5EF51EF7277A609900CFD8C7 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF51EF6277A609900CFD8C7 /* GFAvatarImageView.swift */; };
 /* End PBXBuildFile section */
@@ -86,6 +87,7 @@
 		5EB6202227847691001B9AFD /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		5ED8C5192786307500F732D1 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		5EF1A98E278B8721003B6C6F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5EF1A990278B924C003B6C6F /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		5EF51EF4277A602100CFD8C7 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		5EF51EF6277A609900CFD8C7 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +206,7 @@
 				5E1561A427824D0100026554 /* Date.swift */,
 				5E438C4427751BAF008B8625 /* String.swift */,
 				5EF1A98E278B8721003B6C6F /* UIView.swift */,
+				5EF1A990278B924C003B6C6F /* UITableView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				5E156199278231E700026554 /* Constants.swift in Sources */,
 				5E1F7B9A2773EABA00BE4AF5 /* SearchVC.swift in Sources */,
 				5E1561932781006F00026554 /* GFError.swift in Sources */,
+				5EF1A991278B924C003B6C6F /* UITableView.swift in Sources */,
 				5EF51EF7277A609900CFD8C7 /* GFAvatarImageView.swift in Sources */,
 				5E156187277E779200026554 /* UIHelper.swift in Sources */,
 				5E438C562775CF81008B8625 /* Follower.swift in Sources */,
