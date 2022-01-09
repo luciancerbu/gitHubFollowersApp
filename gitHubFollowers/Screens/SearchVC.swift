@@ -4,7 +4,6 @@
 //
 //  Created by Lucian Cerbu on 23.12.2021.
 //
-
 import UIKit
 
 class SearchVC: UIViewController {
@@ -22,7 +21,7 @@ class SearchVC: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .systemBackground
-        
+        view.addSubviews(logoImageView, usernameTextField, callToActionButton)
         configureLogoImageView()
         configureTextField()
         configureCallToActionButton()
@@ -57,7 +56,6 @@ class SearchVC: UIViewController {
     
     
     func configureLogoImageView() {
-        view.addSubview(logoImageView)
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         logoImageView.image = Images.gfLogo
         
@@ -76,7 +74,6 @@ class SearchVC: UIViewController {
     
     
     func configureTextField() {
-        view.addSubview(usernameTextField)
         callToActionButton.addTarget(self, action: #selector(pushFollowerListVC), for: .touchUpInside)
         
         usernameTextField.delegate = self
@@ -90,8 +87,6 @@ class SearchVC: UIViewController {
     }
     
     func configureCallToActionButton() {
-        view.addSubview(callToActionButton)
-        
         NSLayoutConstraint.activate([
             callToActionButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
             callToActionButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
