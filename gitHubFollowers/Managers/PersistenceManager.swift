@@ -1,5 +1,5 @@
 //
-//  PersistanceManager.swift
+//  PersistenceManager.swift
 //  gitHubFollowers
 //
 //  Created by Lucian Cerbu on 03.01.2022.
@@ -7,11 +7,11 @@
 
 import Foundation
 
-enum PersistanceActionType {
+enum PersistenceActionType {
     case add, remove
 }
 
-enum PersistanceManager {
+enum PersistenceManager {
     
     static private let defaults = UserDefaults.standard
     
@@ -19,7 +19,7 @@ enum PersistanceManager {
         static let favorites = "favorites"
     }
     
-    static func updateWith(favorite: Follower, actionType: PersistanceActionType, completed: @escaping (GFError?) -> Void) {
+    static func updateWith(favorite: Follower, actionType: PersistenceActionType, completed: @escaping (GFError?) -> Void) {
         retrieveFavorites { result in
             switch result {
             case .success(var favorites):
